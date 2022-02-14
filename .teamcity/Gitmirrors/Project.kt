@@ -1,5 +1,6 @@
 package Gitmirrors
 
+import Gitmirrors.buildTypes.*
 import Gitmirrors.vcsRoots.*
 import Gitmirrors.vcsRoots.Gitmirrors_HttpsGithubComChubatovaTigerGitmirrorsvs
 import jetbrains.buildServer.configs.kotlin.v2019_2.*
@@ -15,6 +16,9 @@ object Project : Project({
 
     vcsRoot(Gitmirrors_HttpsGithubComChubatovaTigerChubatovaGradleTestsBackup)
     vcsRoot(Gitmirrors_HttpsGithubComChubatovaTigerGitmirrorsvs)
+
+    buildType(Gitmirrors_A)
+    buildType(Gitmirrors_B)
 
     features {
         versionedSettings {
