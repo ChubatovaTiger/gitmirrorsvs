@@ -49,7 +49,7 @@ changeBuildType(RelativeId("A")) {
         update<ScriptBuildStep>(0) {
             name = "nameptch12 (1)"
             clearConditions()
-            scriptContent = "ptch300"
+            scriptContent = "ptch3001"
         }
     }
 }
