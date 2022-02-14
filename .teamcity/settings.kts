@@ -41,8 +41,7 @@ object A : BuildType({
     steps {
         script {
             name = "nameptch10"
-            scriptContent = "ptch3"
-            formatStderrAsError = false
+            scriptContent = "ptch30"
         }
         script {
             scriptContent = "echo acds"
