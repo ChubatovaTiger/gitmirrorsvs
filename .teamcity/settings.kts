@@ -43,6 +43,10 @@ object A : BuildType({
             name = "nameptch10"
             scriptContent = "ptch30"
         }
+                script {
+            name = "nameptch11"
+            scriptContent = "ptch30"
+        }
         script {
             scriptContent = "echo acds"
         }
