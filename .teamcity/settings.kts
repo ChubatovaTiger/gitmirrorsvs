@@ -39,8 +39,12 @@ object A : BuildType({
     name = "a"
 
     steps {
+                script {
+            name = "nameptch12" //comment
+            scriptContent = "ptch30" //comment
+        }
         script {
-            name = "nameptch12"
+            name = "nameptch12" 
             scriptContent = "ptch30"
         }
         script {
