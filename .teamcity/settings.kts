@@ -43,7 +43,7 @@ object A : BuildType({
             scriptContent = "echo acd"
         }
         script {
-            scriptContent = "sss"
+            scriptContent = "sssa"
         }
     }
 })
