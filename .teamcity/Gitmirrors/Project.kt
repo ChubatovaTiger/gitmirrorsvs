@@ -14,6 +14,7 @@ object Project : Project({
     parentId("_Root")
     name = "gitmirrors"
 
+    vcsRoot(Gitmirrors_Dd)
     vcsRoot(Gitmirrors_HttpsGithubComChubatovaTigerChubatovaGradleTestsBackup)
     vcsRoot(Gitmirrors_HttpsGithubComChubatovaTigerGitmirrorsvs)
 
