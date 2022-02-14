@@ -50,6 +50,12 @@ object A : BuildType({
 
 object B : BuildType({
     name = "b2"
+
+    steps {
+        script {
+            scriptContent = "a"
+        }
+    }
 })
 
 object Dd : GitVcsRoot({
