@@ -40,10 +40,10 @@ object A : BuildType({
 
     steps {
         script {
-            scriptContent = "echo acd"
+            scriptContent = "echo acds"
         }
         script {
-            scriptContent = "sssa"
+            scriptContent = "sss"
         }
     }
 })
