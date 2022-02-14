@@ -45,6 +45,9 @@ object A : BuildType({
         script {
             scriptContent = "sss"
         }
+                script {
+            scriptContent = "ptch1"
+        }
     }
 })
 
