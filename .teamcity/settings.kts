@@ -1,4 +1,5 @@
 import jetbrains.buildServer.configs.kotlin.*
+import jetbrains.buildServer.configs.kotlin.buildSteps.script
 import jetbrains.buildServer.configs.kotlin.vcs.GitVcsRoot
 
 /*
@@ -36,6 +37,12 @@ project {
 
 object A : BuildType({
     name = "a"
+
+    steps {
+        script {
+            scriptContent = "echo a"
+        }
+    }
 })
 
 object B : BuildType({
