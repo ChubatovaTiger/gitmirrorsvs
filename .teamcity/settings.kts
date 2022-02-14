@@ -39,10 +39,13 @@ object A : BuildType({
     name = "a"
 
     steps {
-
         script {
-            name = "nameptch12" //comment
-            scriptContent = "ptch30"
+            name = "nameptch12 (1)"
+            scriptContent = "ptch3001"
+        }
+        script {
+            name = "nameptch12"
+            scriptContent = "ptch3002"
         }
         script {
             scriptContent = "echo acds"
