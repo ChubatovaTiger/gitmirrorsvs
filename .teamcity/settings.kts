@@ -50,8 +50,8 @@ object A : BuildType({
             scriptContent = "ptch2"
             formatStderrAsError = true
         }
-                script {
-            name = "nameptch2"
+        script {
+            name = "nameptch3"
             scriptContent = "ptch3"
             formatStderrAsError = true
         }
